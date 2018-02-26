@@ -11,7 +11,7 @@ void printmass(int *mass, int n)
 
 void sorttwoarray(int *&mass1, int &n1, int *&mass2, int &n2)
 {
-	int *addarray = (n1 > n2) ? new int[n1] : new int[n2];
+	int *addarray = new int[n1 + n2];
 
 	int counter1 = 0;
 	int counter2 = 0;
